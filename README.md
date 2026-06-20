@@ -1,40 +1,63 @@
-# 🍕 FoodSphere
+# 🚀 FoodSphere
 
-A gorgeous food delivery and recipe explorer website showcasing responsive design and interactive menus.
+![HTML5](https://img.shields.io/badge/HTML5-Structure-orange?logo=html5) ![CSS3](https://img.shields.io/badge/CSS3-Design-blue?logo=css3) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript) ![License](https://img.shields.io/badge/License-MIT-green)
 
----
+## 📌 Description
+A professional codebase representing high-performance development practices, clean folder organization, and solid implementation standards. 
 
-## 📌 System Overview
-FoodSphere is a frontend catalog layout template featuring menu selectors, interactive food cards, and custom category lists. It serves as a visual layout model for online food ordering applications.
+## 🛠️ Technology Stack
 
----
+| Tech | Purpose |
+| :--- | :--- |
+| HTML5 | Semantic structural markup |
+| CSS3 | Custom theme styling & layout grids |
+| JavaScript (ES6) | Client-side DOM manipulation & logic |
 
-## ⚙️ Tech Stack
+## 🧬 Architecture & Logic Flow
+Below is a conceptual visualization of the components and data rendering logic in this project.
 
-| Technology | Purpose |
-| ---------- | ------- |
-| HTML5      | Semantic sections and food items structure |
-| CSS3       | Custom theme variables, container margins, and drop-shadows |
-| JavaScript | Category filtering and UI state manipulation |
+```mermaid
+graph TD
+    User([User Click/Event]) --> DOMEvent[JS Event Listener]
+    DOMEvent --> Logic[DOM Modification Logic]
+    Logic --> Render[UI CSS/Layout Update]
+```
 
----
+## 📂 Folder Structure
+```text
+FoodSphere/
+├── [object Object]
+├── [object Object]
+├── [object Object]
+├── [object Object]
+```
 
-## 🚀 Core Features
-* 🍕 **Menu Filtering:** Filter items by categories (e.g., Pizza, Burgers, Drinks) dynamically.
-* 🛒 **Cart Preview Panel:** Interactive cart state indicator reflecting addition actions.
-* 💫 **Visual Animations:** Sleek hover effects and scaling overlay cards.
+## 🚀 Getting Started
 
----
+### Prerequisites
+- Node.js >= 20 (Required for build/server environments)
+- Modern Web Browser (Chrome, Edge, Firefox)
 
-## ⚙️ Setup & Installation
+### Setup & Launch
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sayed-Herzallah/FoodSphere.git
    ```
-2. Open `index.html` in a web browser.
+2. Navigate to folder:
+   ```bash
+   cd FoodSphere
+   ```
+3. Setup Environment:
+   ```bash
+   npm install
+   ```
+4. Run Locally:
+   ```bash
+   ${deps.next ? 'npm run dev' : (type === 'react' || type === 'angular' || type === 'backend') ? 'npm start' : 'Open index.html directly in your web browser'}
+   ```
 
 ---
-
-## 👨‍💻 Author
+## 👨‍💻 Developed By
 **Sayed Herzallah**  
-Full Stack Developer
+*Backend-Focused Full-Stack Developer*  
+[LinkedIn Profile](https://www.linkedin.com/in/sayed-herzallah) | [Portfolio](https://herzallah.me)
